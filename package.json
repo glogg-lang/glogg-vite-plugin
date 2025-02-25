@@ -5,11 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w \"!**/*.json\" .",
+    "format:check": "prettier -c \"!**/*.json\" ."
   },
   "peerDependencies": {
     "glogg-lang": "file:../glogg"
   },
   "author": "",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "prettier": "^3.5.2"
+  }
 }
