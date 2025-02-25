@@ -1,0 +1,15 @@
+{
+  "name": "glogg-vite-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "glogg-lang": "file:../glogg"
+  },
+  "author": "",
+  "license": "BSD-3-Clause"
+}
